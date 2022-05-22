@@ -16,10 +16,11 @@ Bahasa yang kami gunakan:
 *   MySQL: sebagai platform menyimpan database
 *   PHP  : sebagai code dalam interface 
 *   HTML : sebagai body utama file .php
+*   JavaScript : sebagai pendukung di html
 *   CSS  : sebagai styling dokumen html
 
 
 Software:
 *   Visual Studio Code: text editor untuk PHP dan HTML
 *   Figma: untuk design prototype UI
-*   XAMPP: untuk menmbuat database di MySQL serta sebagai domain untuk kodingan PHP dan HTML yang telah dibua
+*   XAMPP: untuk membuat database di MySQL serta sebagai domain untuk kodingan PHP dan HTML yang telah dibuat
