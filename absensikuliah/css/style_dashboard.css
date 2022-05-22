@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: inherit;
+    justify-content: center;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+header h1 {     /*jarak logo unpad ke header*/
+    float: left;
+    padding: 5px;
+}
+header {    /*dasar header*/
+    background-color: #45B39D;
+    color: #FFFFFF;
+}
+header ul { /*untuk tombol login*/
+    float: right;
+}
+header ul li {  /*supaya tombol login sejajar ma logo unpad*/
+    display: inline-block;
+}
+header ul li a { /*jarak logo and tombol login ke header bawah*/
+    display: inline-block;
+    padding: 0 0 0 10px;
+}
+footer {    /*bagian copyright*/
+    padding: 50px 0 5px 0;      /*atas kanan bawah kiri*/
+    text-align: center;
+}
+.container img {    /*atur logo unpad*/
+    width: 450px;
+    height: 60px;
+    margin: 0 0 0 0;
+    float: left;
+}
+.container {    /*ngatur lebar header*/
+    width: 95%;
+    margin:0 10px 0 20px; /*urutan margin: atas-kanan-bawah-kiri*/
+}
+.container:after {      /*supaya header ga ilang*/
+    content: '';
+    display: block;
+    clear: both;
+}
+.container2 {       /*ngatur kotak update profil admin*/
+    width: 40%;
+    float: left; /*kalo mau rata kiri*/
+    margin: 0 0 50px 100px;
+}
+.box {      /*untuk kotak selamat datang*/
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 25px 0;
+}
+.section {  /*dari header ke konten dashboard*/
+    padding: 70px 0;
+    margin-bottom: 286.5px;
+}
+.btn {      /*untuk login button*/
+    padding: 8px 20px;
+    background-color: #117A65;
+    color:#FFFFFF;
+    margin: 15px 0px;
+    border:none;
+    cursor:pointer;     /*ngerubah bentuk kursor pas nyampe di tombol login*/
+}
