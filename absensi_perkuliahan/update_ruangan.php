@@ -68,7 +68,7 @@ if ($_SESSION['status_login_adm'] != true) {    /*supaya gabisa akses sblm login
                     $lokasi_ruangan = $_POST['lokasi_ruangan'];
                     $kapasitas = ucwords($_POST['kapasitas']);
 
-                    $insert = mysqli_query($koneksi, "INSERT into ruangan VALUES '" . $kode_ruangan . "','" . $lokasi_ruangan . "','" . $kapasitas . "'");
+                    $insert = mysqli_query($koneksi, "INSERT into ruangan VALUES ('" . $kode_ruangan . "','" . $lokasi_ruangan . "','" . $kapasitas . "')");
                     if ($insert) {
                         echo '<script>alert("Data berhasil ditambahkan!")</script>>';
                         echo '<script>window.location="data_ruangan_adm.php"</script>';
